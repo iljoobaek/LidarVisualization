@@ -1,0 +1,3 @@
+/home/lidarwb/Downloads/VelodyneCapture-master/sample/simple/CMakeFiles/rebuild_cache.dir
+/home/lidarwb/Downloads/VelodyneCapture-master/sample/simple/CMakeFiles/simple.dir
+/home/lidarwb/Downloads/VelodyneCapture-master/sample/simple/CMakeFiles/edit_cache.dir

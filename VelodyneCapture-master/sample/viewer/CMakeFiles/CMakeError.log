@@ -1,0 +1,165 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bf3c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bf3c3.dir/build.make CMakeFiles/cmTC_bf3c3.dir/build
+make[1]: Entering directory '/home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf3c3.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_bf3c3.dir/CheckSymbolExists.c.o   -c /home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_bf3c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf3c3.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_bf3c3.dir/CheckSymbolExists.c.o  -o cmTC_bf3c3 
+CMakeFiles/cmTC_bf3c3.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_bf3c3.dir/build.make:97: recipe for target 'cmTC_bf3c3' failed
+make[1]: *** [cmTC_bf3c3] Error 1
+make[1]: Leaving directory '/home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_bf3c3/fast' failed
+make: *** [cmTC_bf3c3/fast] Error 2
+
+File /home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e6ee5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e6ee5.dir/build.make CMakeFiles/cmTC_e6ee5.dir/build
+make[1]: Entering directory '/home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e6ee5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_e6ee5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e6ee5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e6ee5.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_e6ee5.dir/CheckFunctionExists.c.o  -o cmTC_e6ee5 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_e6ee5.dir/build.make:97: recipe for target 'cmTC_e6ee5' failed
+make[1]: *** [cmTC_e6ee5] Error 1
+make[1]: Leaving directory '/home/lidarwb/Downloads/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_e6ee5/fast' failed
+make: *** [cmTC_e6ee5/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_05d3b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05d3b.dir/build.make CMakeFiles/cmTC_05d3b.dir/build
+make[1]: Entering directory '/home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05d3b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_05d3b.dir/CheckSymbolExists.c.o   -c /home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_05d3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05d3b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_05d3b.dir/CheckSymbolExists.c.o  -o cmTC_05d3b 
+CMakeFiles/cmTC_05d3b.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_05d3b.dir/build.make:97: recipe for target 'cmTC_05d3b' failed
+make[1]: *** [cmTC_05d3b] Error 1
+make[1]: Leaving directory '/home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_05d3b/fast' failed
+make: *** [cmTC_05d3b/fast] Error 2
+
+File /home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_98a90/fast"
+/usr/bin/make -f CMakeFiles/cmTC_98a90.dir/build.make CMakeFiles/cmTC_98a90.dir/build
+make[1]: Entering directory '/home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_98a90.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_98a90.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_98a90
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98a90.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_98a90.dir/CheckFunctionExists.c.o  -o cmTC_98a90 -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_98a90.dir/build.make:97: recipe for target 'cmTC_98a90' failed
+make[1]: *** [cmTC_98a90] Error 1
+make[1]: Leaving directory '/home/lidarwb/workbench/project2D_lidar_to_cam/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_98a90/fast' failed
+make: *** [cmTC_98a90/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_17379/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17379.dir/build.make CMakeFiles/cmTC_17379.dir/build
+make[1]: Entering directory '/home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17379.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_17379.dir/CheckSymbolExists.c.o   -c /home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_17379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17379.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_17379.dir/CheckSymbolExists.c.o  -o cmTC_17379 
+CMakeFiles/cmTC_17379.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_17379.dir/build.make:97: recipe for target 'cmTC_17379' failed
+make[1]: *** [cmTC_17379] Error 1
+make[1]: Leaving directory '/home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_17379/fast' failed
+make: *** [cmTC_17379/fast] Error 2
+
+File /home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f8e4c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f8e4c.dir/build.make CMakeFiles/cmTC_f8e4c.dir/build
+make[1]: Entering directory '/home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8e4c.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f8e4c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f8e4c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8e4c.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f8e4c.dir/CheckFunctionExists.c.o  -o cmTC_f8e4c -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f8e4c.dir/build.make:97: recipe for target 'cmTC_f8e4c' failed
+make[1]: *** [cmTC_f8e4c] Error 1
+make[1]: Leaving directory '/home/lidarwb/workbench/Producer_consumer_lidar_viewer/VelodyneCapture-master/sample/viewer/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f8e4c/fast' failed
+make: *** [cmTC_f8e4c/fast] Error 2
+
+
